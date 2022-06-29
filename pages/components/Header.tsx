@@ -15,7 +15,7 @@ export function Header () {
                         <Link href="/">Home</Link>
                     </li>
                     <li>
-                        <Link href="/">Sobre</Link>
+                        <Link href="/about">Sobre</Link>
                     </li>
                 </S.LinksWrapper>
             </nav>
