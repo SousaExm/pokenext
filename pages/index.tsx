@@ -1,5 +1,8 @@
-import { GetServerSideProps, GetServerSidePropsResult, GetStaticPaths, GetStaticPathsContext, GetStaticProps } from "next";
-import { ContextType } from "react";
+import Image from "next/image";
+
+import * as S from '../styles/Pages/StyledHome'
+
+import { Card } from "../components/Card";
 
 interface PokemonsApiResult {
   results: {
@@ -37,11 +40,27 @@ export async function getStaticProps(){
 export default function Home({pokemons}:AllPokemons) {
   return (
     <>
-      <div>
+      <S.TitleWrapper>
+        <h2>
+          Poke<span>Next</span>
+        </h2>
+        <Image 
+          src="/images/pokeball.png" 
+          width={50} 
+          height={50} 
+          alt="PokeNext"
+        />
+      </S.TitleWrapper>
+      
+      <S.PokemonsWrapper>
         {pokemons.map((pokemon) => (
-          <li key={pokemon.id}>Name: {pokemon.name}, Id:{pokemon.id}</li>
+          <Card 
+            id={pokemon.id}
+            name={pokemon.name} 
+            key={pokemon.id}
+          />
         ))}
-      </div>
+      </S.PokemonsWrapper>
     </>
   )
 }

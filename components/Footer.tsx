@@ -1,4 +1,4 @@
-import * as S from '../../styles/components/StyledFooter'
+import * as S from '../styles/components/StyledFooter'
 
 export function Footer () {
     return (

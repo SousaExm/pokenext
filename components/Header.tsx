@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from 'next/image'
-import * as S from '../../styles/components/StyledHeader'
+import * as S from '../styles/components/StyledHeader'
 
 export function Header () {
     return (
