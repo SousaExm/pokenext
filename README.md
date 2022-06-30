@@ -26,6 +26,6 @@ Este projeto foi desenvolvido para aprendizado de conceitos primordias do framew
 
 ## 🔖 Layout
 
-Este layout foi ideializado por Matheus Battisti que ministra aulas sobre diversas tecnologias no youtube através do [canal Hora de Codar.](https://youtube.com/playlist?list=PLnDvRpP8BnezfJcfiClWskFOLODeqI_Ft)
+Este layout foi idealizado por Matheus Battisti que ministra aulas sobre diversas tecnologias no youtube através do [canal Hora de Codar.](https://youtube.com/playlist?list=PLnDvRpP8BnezfJcfiClWskFOLODeqI_Ft)
 
 Code by Renato Sousa
